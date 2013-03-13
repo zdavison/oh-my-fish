@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Oh-my-fish by bpinto</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Oh-my-fish</h1>
+        <p>Framework for managing your fish shell configuration inspired by Oh My ZSH.</p>
+
+        <p class="view"><a href="https://github.com/bpinto/oh-my-fish">View the Project on GitHub <small>bpinto/oh-my-fish</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bpinto/oh-my-fish/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bpinto/oh-my-fish/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bpinto/oh-my-fish">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>A handful of functions, auto-complete helpers, and stuff that makes you shout...</p>
+
+<blockquote>
+<p>"OH MY FISH!"</p>
+</blockquote>
+
+<h2>Setup</h2>
+
+<p><code>oh-my-fish</code> should work with any recent release of <a href="http://ridiculousfish.com/shell/">fish</a></p>
+
+<h3>The automatic installer... (do you trust me?)</h3>
+
+<p>You can install this via the command line with either <code>curl</code> or <code>wget</code>.</p>
+
+<h4>via <code>curl</code>
+</h4>
+
+<p><code>curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.sh | sh</code></p>
+
+<h4>via <code>wget</code>
+</h4>
+
+<p><code>wget --no-check-certificate https://github.com/bpinto/oh-my-fish/raw/master/tools/install.sh -O - | sh</code></p>
+
+<h3>The manual way</h3>
+
+<p>Check out the <a href="https://github.com/bpinto/oh-my-fish/">repository</a>.</p>
+
+<h2>Usage</h2>
+
+<ul>
+<li>enable the plugins you want in your <code>~/.config/fish/config.fish</code> (take a look at <code>plugins/</code> to see what's possible)
+** example: <code>set fish_plugins autojump git</code>
+</li>
+<li>Theme support: Change the <code>fish_theme</code> environment variable in <code>~/.config/fish/config.fish</code>.</li>
+</ul><h3>Customization</h3>
+
+<p>If you want to override any of the default behavior, just add a new file (ending in <code>.load</code>) into the <code>custom/</code> directory.
+If you have many functions which go well together you can put them as a *.fish file in the <code>custom/plugins/</code> directory and then enable this plugin.
+If you would like to override the functionality of a plugin distributed with oh-my-fish, create a plugin of the same name in the <code>custom/plugins/</code> directory and it will be loaded instead of the one in <code>plugins/</code>.</p>
+
+<h3>Uninstalling</h3>
+
+<p>If you want to uninstall it, just remove the installation folder <code>rm -r ~/.oh-my-fish</code> from the command line and restore your previous fish config file.</p>
+
+<h2>Help out!</h2>
+
+<p>I'm far from being a fish-expert and suspect there are many ways to improve. If you have ideas on how to make the configuration easier to maintain (and faster), don't hesitate to fork and send pull requests!</p>
+
+<h3>Send us your theme!</h3>
+
+<p>I'm hoping to collect a bunch of themes for our command prompts. You can see existing ones in the <code>themes/</code> directory.</p>
+
+<h2>Oh My ZSH</h2>
+
+<p>This project is heavily inspired (cloned) on <a href="https://github.com/robbyrussell/oh-my-zsh/">oh-my-zsh</a></p>
+
+<p>Thank you so much!</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bpinto">bpinto</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
